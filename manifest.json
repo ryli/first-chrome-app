@@ -12,5 +12,24 @@
   "icons": {
     "16": "calculator-16.png",
     "128": "calculator-128.png"
-  }
+  },
+  "permissions": [
+    "webview",
+    "storage",
+    "usb",
+    {"usbDevices": [
+      {
+        "vendorId": 2131,
+        "productId": 256
+      },
+      {
+        "vendorId": 1452,
+        "productId": 34065
+      },
+      {
+        "vendorId": 1921,
+        "productId": 21891
+      }
+    ]}
+  ]
 }
